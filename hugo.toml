@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "/"
+baseURL = "https://modbase64.love"
 # Title of your website (required).
 title = "modbase64 - best place to get your favorite mods for free"
 # Your theme name
@@ -140,9 +140,9 @@ notAlternative = true
 ############################# Plugins ##############################
 
 # CSS Plugins
-[[params.plugins.css]]
-link = "plugins/swiper/swiper-bundle.css"
-lazy = true
+# [[params.plugins.css]]
+# link = "plugins/swiper/swiper-bundle.css"
+# lazy = true
 [[params.plugins.css]]
 link = "plugins/glightbox/glightbox.css"
 lazy = true
@@ -160,9 +160,9 @@ lazy = true
 [[params.plugins.js]]
 link = "js/search.js"
 lazy = false
-[[params.plugins.js]]
-link = "plugins/swiper/swiper-bundle.js"
-lazy = false
+# [[params.plugins.js]]
+# link = "plugins/swiper/swiper-bundle.js"
+# lazy = false
 # [[params.plugins.js]]
 # link = "plugins/cookie.js"
 # lazy = false
