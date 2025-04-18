@@ -41,7 +41,7 @@ Grand Prix 2025 brings all F1 2025 cars and drivers from all 10 team in  the FIA
 
 All mod includes Ultra-Detailed 3D Models, new regulations physics, HD sounds, different teams performances and new exciting features. 
 
-{{< notice "tips" >}}This package included with League Edition physics to compete in Online Racing. If you want to revert default Single Player physics,  copy **content** folder from  *_Grand_Prix_2025_Single_Player_physics_backup* folder to /steamapps/common/assettocorsa {{</notice>}}
+{{< notice "tips" >}}This package included with League Edition physics to compete in Online Racing. If you want to revert default Single Player physics,  copy **content** folder from   *_Grand_Prix_2025_Single_Player_physics_backup* folder to /steamapps/common/assettocorsa {{</notice>}}
 
 **MAKE SURE THAT EXTENDED PHYSICS IS TURNED OFF.**
 **USE IT FOR RAIN RACES ONLY (ALSO, MAKE SURE THAT THE 2025 RAIN MODE IS ENABLED).**

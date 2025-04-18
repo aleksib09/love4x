@@ -6,7 +6,7 @@ date: 2025-02-09T05:00:00Z
 image: "images/tracks/fn-albertpark.jpg"
 categories: ["Track"]
 author: "Theodora"
-tags: ["Australia", "Fenryr", "F1", "Street", "Loop"]
+tags: ["Australia", "Fenryr", "F1", "Street", "Loop" , "2025"]
 draft: false
 tracklink: https://modsfire.com/8I7L1w9oLm4sek8
 tracklocation: Australia

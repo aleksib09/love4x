@@ -6,7 +6,7 @@ date: 2025-04-06T05:00:00Z
 image: "images/tracks/pyyer-suzuka-f1-2025.jpg"
 categories: ["Track"]
 author: "Theodora"
-tags: ["Japan", "F1", "Pyyer", "Circuit", "Loop"]
+tags: ["Japan", "F1", "Pyyer", "Circuit", "Loop", "F1 2025", "2025"]
 draft: false
 tracklink: https://modsfire.com/3kRX0z86LDd150J
 trackzipsize: "64 MB"
