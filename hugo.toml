@@ -2,7 +2,7 @@
 # The base URL of your site (required). This will be prepended to all relative URLs.
 baseURL = "https://modbase64.love"
 # Title of your website (required).
-title = "modbase64 - best place to get your favorite mods for free"
+title = "modbase64 - only place to get quality Assetto Corsa mods"
 # Your theme name
 theme = "hugoplate"
 # post excerpt
