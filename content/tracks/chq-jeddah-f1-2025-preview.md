@@ -6,7 +6,7 @@ date: 2025-04-17T05:00:00Z
 image: "images/tracks/chq-jeddah-f1-75-preview.jpg"
 categories: ["Track"]
 author: "Theodora"
-tags: ["F1", "GT4", "F2", "PCC", "Street", "Saudi Arabia", "Loop", "F1 2025", "2025"]
+tags: ["F1", "Street", "Saudi Arabia", "Loop", "F1 2025", "2025"]
 draft: false
 tracklink: https://modsfire.com/6FcW4455Q3Gk8ow
 trackzipsize: "57 MB"

@@ -6,14 +6,14 @@ date: 2024-12-12T05:00:00Z
 image: "images/tracks/pyyer-monza-pack.jpg"
 categories: ["Track"]
 author: "Theodora"
-tags: ["Italy", "F1", "WEC", "Fenryr", "Circuit", "Loop"]
+tags: ["Italy", "WEC", "Fenryr", "Circuit", "Loop"]
 draft: false
 tracklink: https://modsfire.com/y8Ejmh6DvXjhKaC
 tracklocation: Italy
 trackimage: monza
 trackcity: Monza
 trackwidth: 12
-trackhosted: ["F1", "WEC", "ELMS"]
+trackhosted: ["WEC"]
 tracktype: ["Circuit", "Loop"]
 trackclass: 1 
 trackLength: 5.789

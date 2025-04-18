@@ -6,7 +6,7 @@ date: 2024-04-12T05:00:00Z
 image: "images/tracks/pyyer-bahrain-f1-2025.jpg"
 categories: ["Track"]
 author: "Theodora"
-tags: ["F1", "WEC", "Pyyer", "Circuit", "Bahrain", "Loop", "F1 2025", "2025"]
+tags: ["F1", "Pyyer", "Circuit", "Bahrain", "Loop", "F1 2025", "2025"]
 draft: false
 tracklink: https://modsfire.com/8l0z247lEanTR4Q
 trackzipsize: "527 MB"

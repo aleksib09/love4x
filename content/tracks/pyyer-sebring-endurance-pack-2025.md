@@ -6,7 +6,7 @@ date: 2024-04-02T05:00:00Z
 image: "images/tracks/pyyer-sebring-endurance-pack-2025.jpg"
 categories: ["Track"]
 author: "Theodora"
-tags: ["WEC", "IMSA","GTWCA", "Mazda Cup", "PCCA", "Circuit", "USA", "Loop", "2025"]
+tags: ["WEC", "IMSA", "Circuit", "USA", "Loop", "2025"]
 draft: false
 tracklink: https://modsfire.com/GUl90Y5K2whU0N6
 trackzipsize: "129 MB"

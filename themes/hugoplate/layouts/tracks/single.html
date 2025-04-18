@@ -192,7 +192,7 @@
                                 <p>AC: <b class="text-green">{{ .Params.trackfolder}}</b></p>
                                 </div>
                                 <div style="padding-left:25px">
-                                  <p>Uploaded: {{ time.Format ":date_short" .PublishDate }}</p>
+                                  <p>Uploaded: <b>{{ time.Format ":date_medium" .PublishDate }}</b></p>
                                   </div>
                         </div>
                         <div class="text-center rounded-lg border flex items-center justify-center w-1/5" style="border-radius: var(--radius-sm)">

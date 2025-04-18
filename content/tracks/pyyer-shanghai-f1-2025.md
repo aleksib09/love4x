@@ -6,14 +6,14 @@ date: 2024-04-12T05:00:00Z
 image: "images/tracks/pyyer-shanghai-f1-2025.jpg"
 categories: ["Track"]
 author: "Theodora"
-tags: ["F1", "PCCA", "TCR", "FE", "Pyyer", "Circuit", "China", "Loop","F1 2025", "2025"]
+tags: ["F1", "Pyyer", "Circuit", "China", "Loop","F1 2025", "2025"]
 draft: false
 tracklink: https://modsfire.com/9C7rK5q7g2tfSDD
 trackzipsize: "60 MB"
 tracklocation: China
 trackimage: shanghai
 trackcity: Shanghai
-trackhosted: [ "F1", "FE", "PCCA", "TCR"]
+trackhosted: [ "F1"]
 tracktype: ["Circuit", "Loop"]
 trackclass: "1" 
 trackLength: 5.451

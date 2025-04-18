@@ -14,7 +14,7 @@ tracklocation: Japan
 trackimage: suzuka
 trackcity: Suzuka
 trackwidth: 12
-trackhosted: [ "F1", "SF", "IGTC", "Super GT"]
+trackhosted: [ "F1"]
 tracktype: ["Circuit", "Loop"]
 trackclass: "1" 
 trackLength: 5.8
