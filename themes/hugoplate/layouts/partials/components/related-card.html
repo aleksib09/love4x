@@ -72,10 +72,10 @@
     <!-- Caption -->
     <div class="grid-item-content">
       <p class="pt-1 pl-0.8"><span><!-- Caption -->
-      <a href="{{ .RelPermalink }}" class="item-desc pt-2 pr">{{ .Title }}</span>
-       <p><a href="{{ .RelPermalink }}" class="btn btn-success btn-block">Learn More</a></p> </span></p>
+      <a href="{{ .RelPermalink }}" title="{{ .Title }}" class="item-desc pt-2 pr">{{ .Title }}</span>
+       <p><a href="{{ .RelPermalink }}" title="{{ .Title }}" class="btn btn-success btn-block">Learn More</a></p> </span></p>
     </div>
-    <a href="{{ .RelPermalink }}"><span class="img-link"></span></a>
+    <a href="{{ .RelPermalink }}" title="{{ .Title }}"><span class="img-link"></span></a>
   </div>
  
 </div>
