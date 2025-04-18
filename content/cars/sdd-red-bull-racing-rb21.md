@@ -1,8 +1,8 @@
---- 
+---
 title: "Red Bull Racing RB21"
 meta_title: ""
 description: "Red Bull Racing RB21 by Grand Prix 2025, Sim Dream"
-date: 2025-04-17T05:00:00Z
+date: 2025-03-25T05:00:00Z
 image: "images/cars/sdd-red-bull-racing-rb21-preview.jpg"
 image2: "images/sdd-red-bull-racing-rb21.jpg"
 categories: ["Car"]

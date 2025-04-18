@@ -6,7 +6,7 @@ date: 2024-12-12T05:00:00Z
 image: "images/tracks/pyyer-monza-pack.jpg"
 categories: ["Track"]
 author: "Theodora"
-tags: ["Italy", "F1", "WEC", "Pyyer", "Circuit", "Loop"]
+tags: ["Italy", "F1", "WEC", "Fenryr", "Circuit", "Loop"]
 draft: false
 tracklink: https://modsfire.com/y8Ejmh6DvXjhKaC
 tracklocation: Italy
@@ -20,10 +20,10 @@ trackLength: 5.789
 trackopened: 1922
 tracklayout: 3 (+2)
 trackpitboxes: 52
-trackcreator: Pyyer
+trackcreator: Fenryr
 # trackcsp1: "Unknown"
 # trackcreatorfull: LP Design
-trackcreatorlink: https://www.patreon.com/c/Pyyer/
+trackcreatorlink: https://www.patreon.com/c/fenryr/
 trackversion: "1.45"
 trackcsp: "0.26"
 trackname: "Autodromo Nazionale Monza"

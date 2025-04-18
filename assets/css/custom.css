@@ -9,6 +9,10 @@
   font-weight: 700;
 }
 
+.notice {
+  border-radius: var(--radius-sm);
+}
+
 .vl {
   -webkit-touch-callout: none;
 -webkit-user-select: none;

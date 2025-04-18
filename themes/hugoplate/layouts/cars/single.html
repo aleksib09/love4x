@@ -70,12 +70,12 @@
              src="https://i.imgur.com/{{ .Params.mainimage }}.jpg" {{ else }}
              src="/{{ if .Params.image2}}{{.Params.image2}}{{else}}{{.Params.image}}{{end}}"
              {{ end }} 
-             style="width: auto; height: 500px;"/>
+             style="width: auto; height: 545px;"/>
             </div>
             {{/*  Display manufacturer  */}}
             <div class="flex flex-col justify-start ml-4 mb-2 space-y-4" style="margin-bottom:10px">
               <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-bottom: 8.45px">
-                <a href="/tags/{{ .Params.manu | urlize }}"><img class="cursor-pointer" src="/images/{{ .Params.manu }}.png" style="max-width: 140px; height: auto;"/></a>
+                <a href="/tags/{{ .Params.manu | urlize }}"><img class="cursor-pointer" src="/images/{{ if .Params.brandname}}{{.Params.brandname}}{{else}}{{ .Params.manu | urlize | lower }}{{end}}.png" style="max-width: 150px; max-height: 36px;"/></a>
                </div>
                {{/*  Show small main image on the list gallery  */}}
               <div class="flex justify-center" style="margin-top: 4px">
@@ -201,7 +201,7 @@
                                 <p>Name: <b>{{ .Params.carname}}</b></p>
                               </div>
                             <div>
-                              <p style="word-wrap:break-word; word-break: break-all; font-size:15px" class="break-all">AC: {{ .Params.folder}}</p>
+                              <p style="word-wrap:break-word; word-break: break-all; font-size:15px" class="break-all">AC: <b>{{ .Params.folder}}</b></p>
                               </div>
                               <div>
                                 <p>File Size: <b>{{ .Params.zipsize}}</b></p>
@@ -235,7 +235,7 @@
                         download here
                         </p>  */}}
                         <div class="text-center rounded-lg border flex items-center justify-center w-1/5">
-                          <a href="{{ .Params.link }}" target="_blank"><img alt={{ .Params.host }} class="mx-auto" src="/images/{{ .Params.host }}.png" width="118"></a>
+                          <a href="{{ .Params.link }}" target="_blank"><img alt={{ .Params.host }} class="mx-auto" src="/images/{{ .Params.host }}.png" width="138"></a>
                       </div>
                     </div>
                 </div>
@@ -248,9 +248,9 @@
                               {{ $manufacturer:= .Params.manu }}
                               {{ $brand:= .Params.brandname }}
                               {{ if .Params.brandname }}
-                              <img alt={{ .Params.manu }} class="mx-auto" src="/images/{{ .Params.brandname | urlize }}.png" width="168">
+                              <img alt={{ .Params.manu }} class="mx-auto" src="/images/{{ .Params.brandname | urlize | lower }}.png" width="auto" style="max-height: 160px">
                               {{ else }}
-                              <img alt={{ .Params.manu }} class="mx-auto" src="/images/{{ .Params.manu | urlize }}.png" width="168">
+                              <img alt={{ .Params.manu }} class="mx-auto" src="/images/{{ .Params.manu | urlize | lower }}.png" width="auto" style="max-height: 160px">
                             {{ end }}</a>
                         </div>
                         <div class="text-left px-2 py-4 items-center rounded-lg grid grid-cols-2 gap-1 border w-1/4" style="padding-left: 20px;">

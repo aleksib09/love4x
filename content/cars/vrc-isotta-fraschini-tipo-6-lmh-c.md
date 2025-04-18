@@ -2,7 +2,7 @@
 title: "Isotta Fraschini Tipo 6 LMH-C"
 meta_title: ""
 description: "Isotta Fraschini Tipo 6 LMH-C - VRC PT Isola Santini V1.1 by VRC, ready to race!"
-date: 2025-04-03T05:00:00Z
+date: 2025-03-03T05:00:00Z
 image: "images/vrc-pt-isola-santini.jpg"
 categories: ["Car"]
 author: "Theodora"

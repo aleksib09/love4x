@@ -113,10 +113,10 @@
                </div>  */}}
               {{ else if .Params.trackmainimage }}
               <div class="flex thumbnail w-auto justify-center">
-                <img id="main-image" class="shadow-lg" onclick="openLightbox()" src="https://i.imgur.com/{{.Params.trackmainimage}}.jpg" style="max-width: auto; height: 600px;"/>
+                <img id="main-image" class="shadow-lg" onclick="openLightbox()" src="https://i.imgur.com/{{.Params.trackmainimage}}.jpg" style="max-width: auto; height: 620px;"/>
                {{ else }}
                <div class="flex thumbnnail w-auto center justify-center">
-                <img id="main-image" class="shadow-lg" onclick="openLightbox()" src="/{{.Params.image}}" style="max-width: auto; height: 610px;"/>
+                <img id="main-image" class="shadow-lg" onclick="openLightbox()" src="/{{.Params.image}}" style="max-width: auto; height: 620px;"/>
               {{ end  }}
             </div>
            </div>
@@ -165,7 +165,7 @@
           {{ $trackrqlink:= .Params.trackrequirelink}}
           {{ if in $cspreq "No" }}
           {{ else }}
-          <div class="notice warning" style="margin-bottom:5px">
+          <div class="notice info rounded-xs" style="margin-bottom:5px">
             <div class="notice-head"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="22" height="22">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z"></path>
             </svg><p>Mod Requirements</p>
@@ -174,14 +174,14 @@
           </div>
           {{ end }}
           {{ if $trackrq }}
-          <div class="notice warning" style="margin-bottom:12px">
+          <div class="notice info mt-2" style="margin-top: 4px;margin-bottom:5px">
             <div class="notice-body" style="margin-top:1px"><p>This extension requires <b> {{ if $trackrqlink }}<a href="{{ .Params.trackrequirelink }}">{{ end }}{{ .Params.trackrequirement }} </b></a>  to work properly.</p></div>
           </div>
           {{ end }}
           <div class="flex items-center justify-center w-full py-2">
             <div class="overflow-x-auto w-full">
                     <div class="flex space-x-2">
-                        <div class="text-left px-2 py-2 grid grid-cols-2 rounded-lg gap-1 border content-center w-1/2" style="padding-left:23px">
+                        <div class="text-left px-2 py-2 grid grid-cols-2 rounded-lg gap-1 border content-center w-1/2" style="padding-left:23px; border-radius: var(--radius-sm)">
                             <div>
                                 <p>Track: <b>{{ .Params.trackname}}</b></p>
                               </div>
@@ -195,10 +195,10 @@
                                   <p>Uploaded: {{ time.Format ":date_short" .PublishDate }}</p>
                                   </div>
                         </div>
-                        <div class="text-center rounded-lg border flex items-center justify-center w-1/5">
-                          <a href="/tags/{{ .Params.tracklocation | urlize }}"><img alt={{ .Params.tracklocation }} class="mx-auto" src="/images/{{ .Params.tracklocation | urlize }}.png" width="118"></a>
+                        <div class="text-center rounded-lg border flex items-center justify-center w-1/5" style="border-radius: var(--radius-sm)">
+                          <a href="/tags/{{ .Params.tracklocation | urlize }}"><img alt={{ .Params.tracklocation }} class="mx-auto" src="/images/{{ .Params.tracklocation | urlize }}.png" style="max-height:60px"></a>
                       </div>
-                        <div class="shadow-2xs text-left py-4 px-8 rounded-lg gap-2 border-1 grid grid-cols-2 content-center w-1/3" style="align-content: center;">
+                        <div class="shadow-2xs text-left py-4 px-8 rounded-lg gap-2 border-1 grid grid-cols-2 content-center w-1/3" style="align-content: center; border-radius: var(--radius-sm)">
                           <div>
                             <p>Collection: <a href="/tags/{{ .Params.trackcreator }}" target="_blank"><b>{{ .Params.trackcreator }}</b></a></p>
                           </div>
@@ -206,7 +206,7 @@
                             <p>Version: </p> <p><b>{{ .Params.trackversion}}</b></p>
                           </div>
                         </div>
-                        <div class="text-center rounded-lg border flex items-center justify-center w-1/5">
+                        <div class="text-center rounded-lg border flex items-center justify-center w-1/5" style="border-radius: var(--radius-sm)">
                           <a href="{{ .Params.tracklink }}" target="_blank"><img alt={{ .Params.host }} class="mx-auto" src="/images/{{ .Params.trackhost }}.png" width="118"></a>
                       </div>
                     </div>
