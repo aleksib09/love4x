@@ -2,7 +2,7 @@
 title: "F1 2025 Pack - Formula Hybrid 2024"
 meta_title: ""
 description: "F1 2025 Pack - Formula Hybrid 2025 for Assetto Corsa by RSS"
-date: 2025-04-18T05:00:00Z
+date: 2025-04-08T05:00:00Z
 image: "images/cars/rssr-Formula-Hybrid-2025-F1-2025-preview.jpg"
 mainimage: iKVf1Fc
 cargallery: ["4kHiQwf", "qeUpvGI", "MDsfQyC"]

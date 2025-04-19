@@ -172,7 +172,7 @@
                           {{ if .Params.link2 }}
                           <a href="{{ .Params.link2 }}"><img alt={{ .Params.hosts2 }} class="mx-auto" src="/images/{{ .Params.host2 }}.png" width="168"></a>
                           {{ else }}
-                          <a href="{{ .Params.creatorlink }}" target="_blank"><img class="mx-auto" src="/images/{{ .Params.creator | urlize }}.png" style="max-height:65px"></a>
+                          <a href="{{ .Params.creatorlink }}" target="_blank"><img class="mx-auto" src="/images/{{ .Params.creatorlogo | urlize }}" style="max-height:65px"></a>
                           {{ end }}
                       </div>
                         <div class="text-center border flex items-center justify-center w-1/4" style="border-radius: var(--radius-sm);">
@@ -188,11 +188,11 @@
                         {{ $event:= .Params.event }}
                           <div class="text-center rounded-lg border py-4 px-8 flex items-center justify-center w-1/4 aspect" style="border-radius: var(--radius-sm);">
                               <a href="/tags/{{ .Params.tournament | urlize | lower }}">
-                                <img alt={{ .Params.tournament }} class="mx-auto"  src="/images/{{ if $event }}{{.Params.event | urlize | lower }}-{{ .Params.season }}{{else}}{{ .Params.tournament | urlize | lower }}{{end}}.png" width="auto" style="max-height: 50px"></a>
+                                <img alt={{ .Params.tournament }} class="mx-auto"  src="/images/{{ if $event }}{{.Params.event | urlize | lower }}-{{ .Params.season }}{{else}}{{ .Params.tournament | urlize | lower }}{{end}}.png" width="auto" style="max-height: 60px"></a>
                           </div>
                           <div class="text-center rounded-lg border py-4 px-8 flex items-center justify-center w-1/4 aspect" style="border-radius: var(--radius-sm);">
                             <a href="/tags/{{ .Params.teamname | urlize | lower }}">
-                              <img alt={{ .Params.teamname }} class="mx-auto" src="/images/{{ .Params.teamname | urlize | lower }}.png" width="auto" style="max-height: 50px"></a>
+                              <img alt={{ .Params.teamname }} class="mx-auto" src="/images/{{ .Params.teamname | urlize | lower }}.png" width="auto" style="max-height: 60px"></a>
                         </div>
                           <div class="text-left px-2 py-4 rounded-lg grid grid-cols-2 gap-1 border-1 items-center w-1/2" style="padding-left:35px; border-radius: var(--radius-sm);">
                               <div>

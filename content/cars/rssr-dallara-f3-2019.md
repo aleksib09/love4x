@@ -2,7 +2,7 @@
 title: "Dallara F3 2019"
 meta_title: ""
 description: "Dallara F3 2019 for Assetto Corsa by RSS"
-date: 2025-04-18T05:00:00Z
+date: 2024-07-22T05:00:00Z
 image: "images/cars/rssr-Dallara-F3-2019-preview.jpg"
 mainimage: Bqf1Bl2
 # cargallery: ["4kHiQwf", "qeUpvGI", "MDsfQyC"]

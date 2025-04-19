@@ -11,7 +11,7 @@ draft: false
 name: F1 2025 Helmet Pack
 creator: Marco17
 # creatorfull: Cameron McIntosh Design
-creatorlogo: marco.png
+creatorlogo: marco17.png
 creatorlink: https://www.patreon.com/marco17_ok_design
 version: "1.0"
 car: "ACSPRH V2"

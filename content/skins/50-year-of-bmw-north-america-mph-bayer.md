@@ -11,7 +11,7 @@ draft: false
 name: Team WRT GTWC EU 2025 Pack
 creator: Marco17
 # creatorfull: Cameron McIntosh Design
-creatorlogo: marco.png
+creatorlogo: marco17.png
 creatorlink: https://www.patreon.com/marco17_ok_design
 version: "1.0"
 car: "MP-H Bayer Hybrid V8"
