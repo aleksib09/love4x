@@ -19,11 +19,9 @@ carlink: "/cars/urd-bayro-gt3-v2/"
 teamname: Team WRT
 tournament: IGTC
 season: 2025 
-link: https://modsfire.com/zcQ2z789MSbJj18
-# link2:
-zipsize: 67 MB
+link: https://modsfire.com/mG2VFH1612W287q
+zipsize: 44 MB
 csp: "0.26"
-# csp1: "
 host: ModsFire
 misctype: "Skin"
 # host2:
@@ -35,4 +33,8 @@ skinrequire: RHP - Real Helmet Project | OverTake.GG
 skinrequirelink: "https://www.overtake.gg/downloads/rhp-real-helmets-project.75985/"
 ---
 
-Ahead of Paul Richard, here are the Team WRT entries into the GT World Challenge Europe! Faithfully translated onto the URD Bayro.
+Whilst creating the #32 and #46, I got the idea to make a Pertamax Turbo sponsored entry! This is purely fictional, so I thought I'd make it a dual release alongside the main pack :)
+
+Also included on the design are the fictional drivers G. Nes Papoulis and A. Tsousis, as a nod to their dedication to getting me to make the WRT cars! 
+
+Enjoy :)
