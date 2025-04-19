@@ -8,7 +8,7 @@ mainimage: JARZiFl
 cargallery: ["Kr0c0jh", "bISbw1Z", "MAqSVzV"]
 categories: ["Car"]
 author: "Theodora"
-tags: ["Ford", "GT3","IMSA", "Le Mans Prototype", "Le Mans", "USA","R2R", "2024"]
+tags: ["Ford", "GT3","IMSA", "Le Mans Prototype", "Le Mans", "RSS", "USA","R2R", "2024"]
 draft: false
 link: https://modsfire.com/0y0Ag77hhi0MBew
 zipsize: "1.27 GB"

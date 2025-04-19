@@ -124,6 +124,11 @@ weight = 2
 parent = "Creators"
 name = "URD - United Racing Design"
 url = "/tags/urd/"
+weight = 3
+[[main]]
+parent = "Creators"
+name = "RSS - Race Sim Studio"
+url = "/tags/rss/"
 weight = 2
 
 [[main]]

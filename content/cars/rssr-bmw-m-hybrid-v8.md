@@ -8,7 +8,7 @@ mainimage: 6LhaDPl
 cargallery: ["LYM3KQm", "Ou78kxh", "ryFDGbD"]
 categories: ["Car"]
 author: "Theodora"
-tags: ["Ford", "Hypercar","LMDh", "Le Mans Prototype", "IMSA", "Le Mans", "Germany","R2R", "2023"]
+tags: ["Ford", "Hypercar","LMDh", "Le Mans Prototype", "IMSA", "Le Mans", "RSS", "Germany","R2R", "2023"]
 draft: false
 link: https://modsfire.com/7qKDOovOuWi77Bv
 zipsize: "417 MB"
