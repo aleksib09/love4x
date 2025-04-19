@@ -19,14 +19,11 @@ carlink: "/misc/acsprh-v2/"
 teamname: F1
 tournament: F1
 season: 2025 
-link: https://modsfire.com/zcQ2z789MSbJj18
-# link2:
-zipsize: 67 MB
+link: https://modsfire.com/vLO3J1NmBRjnC0L
+zipsize: 60 MB
 csp: "0.26"
-# csp1: "
 host: ModsFire
 misctype: "Skin"
-# host2:
 quantity: 3
 mainimage: 6oI14Nj
 # skingallery: ["GBA32BC", "nn555Sm"]
