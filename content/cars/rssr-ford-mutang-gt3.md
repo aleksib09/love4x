@@ -2,7 +2,7 @@
 title: "Ford Mustang GT3"
 meta_title: ""
 description: "Ford Mustang GT3 for Assetto Corsa by RSS"
-date: 2025-04-18T05:00:00Z
+date: 2025-04-10T05:00:00Z
 image: "images/cars/rss-Ford-Mustang-GT3-preview.jpg"
 mainimage: JARZiFl
 cargallery: ["Kr0c0jh", "bISbw1Z", "MAqSVzV"]

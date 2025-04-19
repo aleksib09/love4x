@@ -2,7 +2,7 @@
 title: "Ferrari 296 GT3"
 meta_title: ""
 description: "Ferrari 296 GT3 for Assetto Corsa by RSS"
-date: 2025-04-18T05:00:00Z
+date: 2025-04-13T05:00:00Z
 image: "images/cars/rss-Ferrari-296-GT3-preview.jpg"
 mainimage: 6zMIf40
 cargallery: ["h351Nj4", "0wqK7E0", "acC45Xo"]

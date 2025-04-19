@@ -2,7 +2,7 @@
 title: "Porsche 963 GTP"
 meta_title: ""
 description: "Porsche 963 GTP for Assetto Corsa by RSS"
-date: 2025-04-18T05:00:00Z
+date: 2024-11-10T05:00:00Z
 image: "images/cars/rss-Porsche-963-GTP-preview.jpg"
 mainimage: nc0ZzwI
 cargallery: ["3daP8Fv", "A5RwdGb", "Opf0Xu2"]

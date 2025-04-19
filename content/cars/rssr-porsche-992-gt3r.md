@@ -2,7 +2,7 @@
 title: "Porsche 992 GT3 R"
 meta_title: ""
 description: "Porsche 992 GT3 R for Assetto Corsa by RSS"
-date: 2025-04-18T05:00:00Z
+date: 2025-01-22T05:00:00Z
 image: "images/cars/rssr-Porsche-992-GT3-R-preview.jpg"
 mainimage: 2oMxmBD
 cargallery: ["501sZvX", "iGolO3n", "FyLoNCi"]
