@@ -1,0 +1,42 @@
+---
+title: "F1 2025 Helmet Pack - ACSPRH V2"
+meta_title: ""
+description: "F1 2025 Helmet Pack - ACSPRH V2 by Marco17"
+date: 2025-04-01T05:00:00Z
+image: "images/skins/f1-2025.png"
+categories: ["Skin"]
+author: "Theodora"
+tags: ["Skin", "F1","Mercedes", "Ferrari" ,"Williams", "Haas", "McLaren", "Alpine", "Racing Bulls", "Aston Martin", "KICK Sauber", "2025", "Marco17"]
+draft: false
+name: F1 2025 Helmet Pack
+creator: Marco17
+# creatorfull: Cameron McIntosh Design
+creatorlogo: marco.png
+creatorlink: https://www.patreon.com/marco17_ok_design
+version: "1.0"
+car: "ACSPRH V2"
+carlink: "/misc/acsprh-v2/"
+teamname: F1
+tournament: F1
+season: 2025 
+link: https://modsfire.com/zcQ2z789MSbJj18
+# link2:
+zipsize: 67 MB
+csp: "0.26"
+# csp1: "
+host: ModsFire
+misctype: "Skin"
+# host2:
+quantity: 3
+mainimage: 6oI14Nj
+# skingallery: ["GBA32BC", "nn555Sm"]
+skinrequire: ACSPRH V2 by Marco17
+skinrequirelink: "/misc/acsprh-v2"
+---
+How to install: copy every file from each driver inside the skin folder that you want.
+
+Note: if there's already an ext_config.ini file in the folder made from the skin's author, don't overwrite it, open it and copy the text inside it (unless the code was from a previous helmet, in that case you can overwrite the file).
+
+Changelog:
+
+11/04/2025: updated all helmets and configs

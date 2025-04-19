@@ -65,13 +65,14 @@
              <img id="main-image" alt="{{ .Title }}" 
              class="thumbnail" 
              onclick="openLightbox()"
-             {{ if .Params.mainimage }} 
+             {{ $mainimg:= .Params.mainimage}}
+             {{ if $mainimg }} 
              src="https://i.imgur.com/{{ .Params.mainimage }}.jpg" {{ else }}
-             src="/{{ if .Params.image2}}{{.Params.image2}}{{else}}{{.Params.image}}{{end}}"
+             src="/{{.Params.image}}"
              {{ end }} 
              style="width: auto; height: 545px;"/>
             </div>
-            {{/*  Display manufacturer  */}}
+            {{/*  Display Team  */}}
             <div class="flex flex-col justify-start ml-4 mb-2 space-y-4" style="margin-bottom:10px">
               <div class="flex thumbnail justify-center" style="padding-top: 8.5px; padding-bottom: 8.45px">
                 <a href="/tags/{{ .Params.teamname | urlize }}"><img class="cursor-pointer" src="/images/{{ .Params.teamname | urlize | lower }}.png" style="max-width: 150px; max-height: 36px;"/></a>
@@ -159,7 +160,7 @@
                                 <p>File Size: <b>{{ .Params.zipsize}}</b></p>
                               </div>
                               <div>
-                                <p>{{ if eq .Params.misctype "Skin" }}Skin collection {{ else }}Collection of {{end}} <a href="/tags/{{ .Params.creator }}" class="font-bold">{{ .Params.creator}}</a></p>
+                                <p>{{ if eq .Params.misctype "Skin" }}Skin collection of {{ else }}Collection of {{end}} <a href="/tags/{{ .Params.creator }}" class="font-bold">{{ .Params.creator}}</a></p>
                                 </div>
                                 <div style="padding-left:25px">
                                   <p>Version: <b> {{ .Params.version }} </b></p>
@@ -183,18 +184,18 @@
               <div class="overflow-x-auto w-full">
                       <div class="flex space-x-2">
                         {{ $event:= .Params.event }}
-                          <div class="text-center rounded-lg border py-4 px-8 flex items-center justify-center w-1/4 aspect-square" style="border-radius: var(--radius-sm);">
+                          <div class="text-center rounded-lg border py-4 px-8 flex items-center justify-center w-1/4 aspect" style="border-radius: var(--radius-sm);">
                               <a href="/tags/{{ .Params.tournament | urlize | lower }}">
-                                <img alt={{ .Params.tournament }} class="mx-auto"  src="/images/{{ if $event }}{{.Params.event | urlize | lower }}-{{ .Params.season }}{{else}}{{ .Params.tournament | urlize | lower }}{{end}}.png" width="auto" style="max-height: 90px"></a>
+                                <img alt={{ .Params.tournament }} class="mx-auto"  src="/images/{{ if $event }}{{.Params.event | urlize | lower }}-{{ .Params.season }}{{else}}{{ .Params.tournament | urlize | lower }}{{end}}.png" width="auto" style="max-height: 50px"></a>
                           </div>
-                          <div class="text-center rounded-lg border py-4 px-8 flex items-center justify-center w-1/4 aspect-square" style="border-radius: var(--radius-sm);">
+                          <div class="text-center rounded-lg border py-4 px-8 flex items-center justify-center w-1/4 aspect" style="border-radius: var(--radius-sm);">
                             <a href="/tags/{{ .Params.teamname | urlize | lower }}">
-                              <img alt={{ .Params.teamname }} class="mx-auto" src="/images/{{ .Params.teamname | urlize | lower }}.png" width="auto" style="max-height: 90px"></a>
+                              <img alt={{ .Params.teamname }} class="mx-auto" src="/images/{{ .Params.teamname | urlize | lower }}.png" width="auto" style="max-height: 50px"></a>
                         </div>
                           <div class="text-left px-2 py-4 rounded-lg grid grid-cols-2 gap-1 border-1 items-center w-1/2" style="padding-left:35px; border-radius: var(--radius-sm);">
                               <div>
                                   <p>Skin for:
-                                  <b>{{ .Params.car }}</b></p>
+                                  <a class="font-bold" href="{{.Params.carlink}}">{{ .Params.car }}</a></p>
                               </div>
                               <div>
                                   <p>Racing Season:
