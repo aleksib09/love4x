@@ -247,7 +247,7 @@
                             <a href="/tags/{{ .Params.manu | urlize | lower }}">
                               {{ $manufacturer:= .Params.manu }}
                               {{ $brand:= .Params.brandname }}
-                              {{ if .Params.brandname }}
+                              {{ if $brand }}
                               <img alt={{ .Params.manu }} class="mx-auto" src="/images/{{ .Params.brandname | urlize | lower }}.png" width="auto" style="max-height: 160px">
                               {{ else }}
                               <img alt={{ .Params.manu }} class="mx-auto" src="/images/{{ .Params.manu | urlize | lower }}.png" width="auto" style="max-height: 160px">

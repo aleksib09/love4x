@@ -197,23 +197,23 @@
                                   <p>Skin for:
                                   <a class="font-bold" href="{{.Params.carlink}}">{{ .Params.car }}</a></p>
                               </div>
-                              <div>
-                                  <p>Racing Season:
-                                  <b class="font-bold">{{ .Params.season }}</b></p>
-                              </div>
                               {{ if $event }}
                               <div>
                                 <p>Event:
-                                <a href="/tags/{{.Params.event | urlize}}" class="font-bold">{{ .Params.event }}</a>
+                                  <a href="/tags/{{.Params.event | urlize}}" class="font-bold">{{ .Params.event }}</a>
                                 </p>
                               </div>
-                                {{ else }}
-                                <div>
-                                  <p>Championship:
+                              {{ else }}
+                              <div>
+                                <p>Championship:
                                   <a href="/tags/{{.Params.tournament | urlize }}" class="font-bold">{{ .Params.tournament }}</a>
-                                  </p>
-                                </div>
-                                {{ end }}
+                                </p>
+                              </div>
+                              {{ end }}
+                              <div>
+                                  <p>Racing Season:
+                                  <a href="/tags/{{ .Params.season }}" class="font-bold">{{ .Params.season }}</a></p>
+                              </div>
                               <div>
                                   <p>Contain:
                                   <b class="font-bold">{{ .Params.quantity }} skin{{if eq .Params.quantity 0}}{{ else }}s{{end}}</b></p>
