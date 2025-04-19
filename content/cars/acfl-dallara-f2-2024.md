@@ -28,10 +28,10 @@ accel: "3.0 second"
 creator: ACFL
 # creatorfull: Race Sim Studio
 creatorlink: https://asmstudio.fr/produit/f3-2025-assetto-corsa/
-version: "2.0"
+version: "1.0"
 csp: "0.24"
-carname: "Dallara F3 2025"
-folder: "acfl_f3_2025"
+carname: "Dallara F2 2024"
+folder: "acfl_f2_2024"
 livery: "Not Included"
 r2r: 0
 host: ModsFire
