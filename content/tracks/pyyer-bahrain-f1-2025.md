@@ -26,7 +26,7 @@ trackrequirelink: /tracks/fn-bahrain-international-circuit/
 # trackcsp1: "Unknown"
 trackcreator: Pyyer
 # trackcreatorfull: 
-# trackcreatorlink: https://www.patreon.com/c/Pyyer/
+trackcreatorlink: https://www.patreon.com/c/Pyyer/
 trackversion: "1.1"
 trackcsp: "0.26"
 trackname: "Bahrain International Circuit"

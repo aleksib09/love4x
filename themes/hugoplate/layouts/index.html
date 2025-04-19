@@ -94,7 +94,38 @@
   </div>
   <br />
 </section>
+<section class="section-sm py-4">
+  <div class="container pr-5em flex flex-row content-center items-center justify-between mb-2 mt-10"><h3>LATEST SKINS</h3> <a 
+    href="/skins" 
+    class="btn btn-info hidden lg:inline-block text-base">
+    Browse all skins
+  </a></div>
 
+<div class="container">
+  <div class="row gx-2 justify-around items-center" style="margin-right: calc(var(--bs-gutter-x) / 2); margin-left: calc(var(--bs-gutter-x) / 0.77)">
+    <!-- blog posts -->
+    <div class="lg:col-12">
+      <div class="row">
+        {{ $related := where site.Pages.ByPublishDate.Reverse "Params.categories" "intersect" (slice "Skin")}}
+        {{ with $related }}
+        {{ range . | first 12}} 
+        {{ if ne .Section "skins"}}
+        {{ else }}
+          <div class="md:col-4">
+            {{ partial "components/related-card" . }}
+          </div>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+    <br>
+    <!-- sidebar -->
+  </div>
+  <center></center>
+</div>
+<br />
+</section>
 <section class="section-sm mt-0 pt-0">
   <div class="mb-2 container pr-5em flex flex-row content-center items-center justify-between mt-10"><h3>OTHER MODS</h3> <a 
     href="/misc" 

@@ -55,7 +55,7 @@
            </script>
            <div class="page-header pb-4">
             <h6>
-            <i class="fa-solid fa-cog mr-2"></i> {{ .Title }}</h6>
+            <i class="fa-solid fa-brush mr-2"></i> {{ .Title }}</h6>
           </div>
           <div class="w-full flex mt-4 mb-5">
             {{ $galleryimg:= .Params.skingallery }}
@@ -259,17 +259,18 @@
       </div> -->
 
       <!-- Related posts -->
-      {{ $related := .Site.RegularPages.Related . | first 10 }}
-      {{ $related = $related | shuffle | first 6 }}
+      {{ $related := .Site.RegularPages.Related . | first 6 }}
+      {{/*  {{ $related = $related | first 3 }}  */}}
+      {{/*  {{ $related = where (where site.Pages "Params.tags" "intersect" (slice .Params.manu .Params.class )) "Permalink" "!=" .Page.Permalink }}  */}}
       {{ with $related }}
         <div class="section pb-0">
-          <h4 class="h6 mb-6"><i class="fa fa-paperclip"></i> Other similar mods</h4>
-          <div class="row">
-            {{ range . }}
-            {{ if ne .Section "misc" }}
+          <h4 class="h5 mb-2"><i class="fa fa-bars mr-2"></i>Other similar skins</h4>
+          <div class="row gx-2" style="margin-right: calc(var(--bs-gutter-x) / -10); margin-left: calc(var(--bs-gutter-x) / -4)">
+            {{ range $related | first 6}}
+            {{ if ne .Section "skins"  }}
             {{ else }}
-              <div class="lg:col-4 md:col-6 mb-14">
-                {{ partial "components/blog-card" . }}
+            <div class="lg:col-12 md:col-4" style="margin-bottom: -4px;">
+                {{ partial "components/related-card" .}}
               </div>
               {{ end }}
             {{ end }}

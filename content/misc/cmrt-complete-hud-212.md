@@ -11,7 +11,7 @@ draft: false
 name: CMRT Complete HUD
 creator: CMRT
 creatorfull: CMRT Group
-creatorlogo: cmrt_logo.jpg
+creatorlogo: cmrt_logo.png
 creatorlink: https://www.patreon.com/cmrt
 version: "2.1.2"
 link: https://modsfire.com/g6tglQVbTh4WqEI

@@ -1,0 +1,38 @@
+---
+title: "Team WRT Bathurst 12H 2025 - Bayro 4 GT3"
+meta_title: ""
+description: "Team WRT Bathurst 12H 2025 pack by Cameron McIntosh Design"
+date: 2025-03-10T05:00:00Z
+image: "images/skins/team-wrt-bathurst-12h-2025-preview.jpg"
+categories: ["Skin"]
+author: "Theodora"
+tags: ["Skin", "BMW", "Bayro","Team WRT", "IGTC" ,"Bathurst 12H", "2025", "CMD"]
+draft: false
+name: Team WRT GTWC EU 2025 Pack
+creator: CMD
+creatorfull: Cameron McIntosh Design
+creatorlogo: cmd.png
+creatorlink: https://www.patreon.com/cameronmcintoshdesigns
+version: "1.0"
+car: "Bayro 4 GT3"
+carlink: "/cars/urd-bayro-gt3-v2/"
+teamname: Team WRT
+tournament: IGTC
+season: 2025 
+link: https://modsfire.com/zcQ2z789MSbJj18
+# link2:
+zipsize: 67 MB
+csp: "0.26"
+# csp1: "
+host: ModsFire
+misctype: "Skin"
+# host2:
+event: "Bathurst 12H"
+quantity: 3
+mainimage: Fk9a0oT
+skingallery: ["mci3I3T", "J84srui", "4LKvKj0"]
+skinrequire: RHP - Real Helmet Project | OverTake.GG
+skinrequirelink: "https://www.overtake.gg/downloads/rhp-real-helmets-project.75985/"
+---
+
+Ahead of Paul Richard, here are the Team WRT entries into the GT World Challenge Europe! Faithfully translated onto the URD Bayro.

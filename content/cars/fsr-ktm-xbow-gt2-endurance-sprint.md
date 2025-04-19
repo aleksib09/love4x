@@ -1,9 +1,9 @@
 ---
-title: "Mercedes AMG GT2 Endurance + Sprint"
+title: "KTM X-BOW GT2 Endurance + Sprint"
 meta_title: ""
-description: "Mercedes AMG GT2 Endurance + Sprint pack for Assetto Corsa by FSR"
+description: "KTM X-BOW GT2 Endurance + Sprint pack for Assetto Corsa by FSR"
 date: 2025-04-18T05:00:00Z
-image: "images/cars/fsr-mercedes-amg-gt2-endurance-sprint-preview.jpg"
+image: "images/cars/fsr-ktm-xbow-gt2-endurance-sprint-preview.jpg"
 mainimage: v7c4JYd
 cargallery: ["FUVU2Zv", "bovZnqK", "55u6Arf"]
 categories: ["Car"]

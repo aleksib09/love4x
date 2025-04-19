@@ -165,9 +165,14 @@ weight = 3
 
 
 [[main]]
-name = "Other Mods"
-url = "/misc"
+name = "Skins"
+url = "/skins"
 weight = 4
+
+[[main]]
+name = "Other"
+url = "/misc"
+weight = 5
 
 # footer menu
 

@@ -88,11 +88,11 @@
                 {{if .Params.mainimage }}
                 src="https://i.imgur.com/{{ .Params.mainimage }}.jpg" {{ else }}
                 src="/{{ if .Params.image2 }}{{.Params.image2}}{{else}}{{.Params.image}}{{end}}" {{ end }}
-                style="width: 165px; height: 96px;"/>
+                style="width: 165px; max-height: 88px;"/>
                </div>
             {{ range $galleryimg }}
              <div class="flex justify-center">
-              <img onclick="showImage(`https://i.imgur.com/{{ . }}.jpg`)" class="cursor-pointer" src="https://i.imgur.com/{{ . }}.jpg" style="width: 165px; height: 96px;"/>
+              <img onclick="showImage(`https://i.imgur.com/{{ . }}.jpg`)" class="cursor-pointer" src="https://i.imgur.com/{{ . }}.jpg" style="width: 165px; max-height: 92px;"/>
              </div>
               {{ end }}
 
