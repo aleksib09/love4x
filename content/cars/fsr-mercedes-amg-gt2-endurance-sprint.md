@@ -2,7 +2,7 @@
 title: "Mercedes AMG GT2 Endurance + Sprint"
 meta_title: ""
 description: "Porsche 9Mercedes AMG GT2 Endurance + Sprint pack for Assetto Corsa by FSR"
-date: 2025-03-27T05:00:00Z
+date: 2025-04-18T05:00:00Z
 image: "images/cars/fsr-mercedes-amg-gt2-endurance-sprint-preview.jpg"
 mainimage: v7c4JYd
 cargallery: ["FUVU2Zv", "bovZnqK", "55u6Arf"]

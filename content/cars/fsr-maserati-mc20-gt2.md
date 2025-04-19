@@ -2,7 +2,7 @@
 title: "Maserati MC20 GT2"
 meta_title: ""
 description: "Maserati MC20 GT2 for Assetto Corsa by FSR"
-date: 2025-03-26T05:00:00Z
+date: 2025-04-18T05:00:00Z
 image: "images/cars/fsr-maserati-mc20-gt2-preview.jpg"
 mainimage: RNhjH9b
 # cargallery: ["7WY5o6i", "8HQlpK8", "8xwVWGX"]
