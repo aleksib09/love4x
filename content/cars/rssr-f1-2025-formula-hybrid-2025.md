@@ -37,3 +37,4 @@ r2r: 1
 host: ModsFire
 ---
 
+Formula 1 Season 2025 (latest version of [Formula Hybrid 2024 Version 1](https://racesimstudio.sellfy.store/p/fh23/)) is finally here with 23 original liveries of all 10 teams from Formula 1 2025 season! Includes the beautiful Red Bull Racing white livery for Japanese Grand Prix.

@@ -2,7 +2,7 @@
 title: "First Studio Racing - GT2 Pack"
 meta_title: ""
 description: "GT2 Pack for Assetto Corsa by FSR"
-date: 2025-04-18T06:00:00Z
+date: 2025-04-17T06:00:00Z
 image: "images/cars/fsr-gt2-pack-preview.jpg"
 mainimage: 0BpALyR
 cargallery: ["JAwbRd8", "PMdsNyC", "FUVU2Zv"]
